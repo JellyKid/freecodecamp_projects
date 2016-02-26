@@ -1,0 +1,80 @@
+body {
+  background-color: #7F4A8B;
+}
+.bubble-tail{
+  width: 45%;
+  height: 30px;
+  min-width: 320px;
+  background-image: url(http://i67.tinypic.com/2d9bh1j.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+
+}
+.left-tail {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+.thebat{
+  background: url(http://rockylouproductions.com/blog_wp/wp-content/uploads/2013/06/BnR_base.png) no-repeat center top;
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  flex: 1 1 40px;
+}
+.quote-block {
+  background-image: url(https://uncannymanfrog.files.wordpress.com/2011/04/black-dots1.jpg);
+  background-position: bottom center;;
+  background-size: 100%;
+  width: 45%;
+  min-width: 320px;
+  border-radius: 10px;
+  box-shadow: 3px 3px black;
+  padding-top:5px;
+  padding-bottom: 5px;
+}
+#quote {
+  background-color: black;
+  font-family: 'Bangers', cursive;
+  text-align: center;
+  color: white;
+}
+#author {
+  text-align: right;
+  font-size: 26px;
+  text-shadow: 3px 3px white, -3px -3px white;
+  font-family: 'Anton', sans-serif;
+}
+.parent{
+  display: flex;
+  flex-flow: column;
+  min-height: 100%;
+  min-height: 100vh;
+}
+.top-flex{
+  display: flex;
+  flex: 1 0 auto;
+  align-items: flex-end;
+}
+.bottom-flex{
+  flex: 1 0 auto;
+}
+#tweet-it {
+  width: 50px;
+  background-color: white;
+
+  padding: 8px;
+  border-radius: 6px;
+  box-shadow: 3px 3px black;
+}
+.buttons{
+  width: 100%;
+}
+.under-quote {
+  padding: 8px;
+  overflow: auto;
+}
