@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Cera Search</title>
+    <link href='https://fonts.googleapis.com/css?family=Lora:700|Open+Sans:600' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" media="screen" title="no title" charset="utf-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.7/react.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.7/react-dom.js" charset="utf-8"></script>
+    <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+
+    <!-- <script src="ajax.js" charset="utf-8"></script> -->
+  </head>
+  <body>
+    <div class="parent">
+      <h1>Cera <a href="http://en.wikipedia.org/wiki/Special:Random" target="_blank"><img src="http://www.nbc.com/the-tonight-show/content/sites/nbcutsjf/files/styles/bit_stacked_resized/public/images/2014/11/11/michael-cera-c.jpg?itok=q-WmgOs0" alt="" class="img-circle cera"/></a> Search</h1>
+      <div class="user-control">
+        <div class="form-inline search-input">
+          <div class="form-group">
+            <input class="form-control" type="text" id="search-box" placeholder="Search wikipedia!">
+            <button class="form-control" type="button" id="search-button">Search <i class="fa fa-search"></i></button>
+          </div>
+        </div>
+
+        <p>
+          Click Michael Cera for random results
+        </p>
+
+      </div>
+
+      <div class="container" id="results">
+
+          <script src="wiki.js" charset="utf-8" type="text/babel"></script>
+        
+      </div>
+    </div>
+  </body>
+</html>
